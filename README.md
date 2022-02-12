@@ -1,0 +1,2 @@
+# blackjacksimulator
+Simulates blackjack hands
