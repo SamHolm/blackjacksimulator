@@ -1,14 +1,14 @@
 #Black Jack
 import random
 #Rules:
-stand = "S17" #S17 or H17 #doesnt work
-blackjack = 1 #3:2 or 6:5 #works
-decks = 2 #1, 2, 4, 6, 8 #works
-double_all_hands = True #doesnt work
-das = True #double after split #doesnt work
-rsa = True #resplit aces #doesnt work
-peek10 = True #dealer peeks when his up card is 10 #works
-surrender = False #You can take half of your bet back #doesnt work
+stand = "S17" #S17 or H17 #not changeable 
+blackjack = 1 #3:2 or 6:5 #changeable 
+decks = 2 #1, 2, 4, 6, 8 #changeable 
+double_all_hands = True #not changeable 
+das = True #double after split #not changeable 
+rsa = True #resplit aces #not changeable 
+peek10 = True #dealer peeks when his up card is 10 #changeable 
+surrender = False #You can take half of your bet back #not changeable 
 
 # Basic Strategy
 #Dealer      2    3    4    5    6    7    8    9    10   A   player total
